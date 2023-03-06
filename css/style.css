@@ -1,11 +1,17 @@
 :root {
     --white: #fff;
     --dark-grey: rgb(26, 38, 38);
+    --light-grey: #aaa;
 }
 
 img{
     width: 100%;
 }
+
+.title-container {
+    border-right: 1px solid var(--light-grey);
+}
+
 
 
 /* jumbotron */
@@ -30,4 +36,20 @@ h1 {
 
 h1 span {
     font-weight: 500;
+}
+
+/* Work */
+
+.container {
+    max-width: 95%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card {
+    padding-top: 0.6rem;
 }
