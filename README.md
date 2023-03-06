@@ -7,6 +7,8 @@
  - navigation link Resume takes to external site with Resume PDF file, available to download.
  - work section cards have button View project - on clicking a button, it takes to external website with deployed project.
  - Github, LinkedIn links and buttons take to external relevant site.
+ - all links have hover effect.
+ - all buttons have box-shadow on hover.
  - all links open in new window.
  - the grid layout is responsive and changes to one column view on smaller screens.
   
