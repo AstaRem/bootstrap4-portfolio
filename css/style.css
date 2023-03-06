@@ -31,7 +31,10 @@ i {
 } 
 
 .btn:hover {
-    box-shadow: -5px -5px var(--light-grey);
+    box-shadow: -5px 5px var(--light-grey);
+    position: relative;
+    top: -5px;
+    left: 5px;
 }
 
 /* jumbotron */
