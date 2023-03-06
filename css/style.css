@@ -1,3 +1,8 @@
+:root {
+    --white: #fff;
+    --dark-grey: rgb(26, 38, 38);
+}
+
 img{
     width: 100%;
 }
@@ -6,5 +11,23 @@ img{
 /* jumbotron */
 .profile-photo-container img {
     width: 10%;
-    border-radius: 7px;
+    border-radius: 50%;
+}
+
+.jumbotron {
+    background: url("../images/keyboard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    background-attachment:fixed;
+    background-color: var(--dark-grey);
+    background-blend-mode: multiply;
+}
+
+h1 {
+    color: var(--white);
+}
+
+h1 span {
+    font-weight: 500;
 }
