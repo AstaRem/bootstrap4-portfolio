@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
 
     <title>Bootstrap4 portfolio</title>
+    <script src="https://kit.fontawesome.com/74005f9da7.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Navigation -->
@@ -25,7 +26,7 @@
 
       <!-- hero -->
       <div class="jumbotron">
-        <div class="profile-photo-container">
+        <div class="profile-photo-container rounded-circle">
             <img src="images/profile.jpg" alt="profile photo">
         </div>
         <h1 class="display-4">Hi, I am Asta
@@ -39,11 +40,11 @@
 
         <div class="container" id="work">
             <div class="row">
-                <div class="col-2 title-container">
+                <div class="cpl-12 col-md-2 title-container">
                     <h2>Work</h2>
                 </div>
-                <div class="col-8">
 
+                <div class="col-12 col-md-10">
                     <div class="container-fluid">
                         <!-- row 1 -->
                         <div class="row">
@@ -107,12 +108,100 @@
         </div>
 
       <!-- Skills section -->
-      <div id="skills"></div>
+      <div class="container" id="skills">
+        <div class="row">
+
+            <div class="col-12 col-md-2 title-container">
+                <h2>Skills</h2>
+            </div>
+
+            <div class="col-12 col-md-10">
+                <div class="container">
+                    <div class="row">
+                        <div class="card col-md-3 col-6 text-center">
+                            <i class="fa-brands fa-html5"></i>
+                            <div class="card-body">
+                                <p class="card-text">HTML</p>
+                            </div>
+                        </div>
+            
+                        <div class="card col-md-3 col-6 text-center">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <div class="card-body">
+                                <p class="card-text">CSS</p>
+                            </div>
+                        </div>
+        
+                        <div class="card col-md-3 col-6 text-center">
+                            <i class="fa-brands fa-js"></i>
+                            <div class="card-body">
+                                <p class="card-text">JavaScript</p>
+                            </div>
+                        </div>
+            
+                        <div class="card col-md-3 col-6 text-center">
+                            <i class="fa-brands fa-bootstrap"></i>                   
+                             <div class="card-body">
+                                <p class="card-text">Bootstrap</p>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+
+    
+            </div>
+
+
+        </div>
+      </div>
 
       <!-- About me-contact-->
-      <div id="about-me"></div>
+      <div id="about-me" class="container">
+        <div class="row">
+            <div class="col-12 col-md-2 title-container">
+                <h2>About me</h2>
+            </div>
+
+            <div class="col-12 col-md-10 about">
+                <div class="profile-photo-container container">
+                    <img src="images/profile.jpg"  alt="#">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nemo atque rem expedita officiis, tempore, ipsam perferendis rerum pariatur dolor est quas voluptatum ex officia deleniti in nesciunt, labore cumque?</p>
+                <p>Contact me:</p>
+                <p>asta.rem777@gmail.com</p>
+                <p><a href="https://github.com/AstaRem" target="_blank">GitHub</a></p>
+                <p><a href="https://www.linkedin.com/in/asta-remeikiene-90192b9/" target="blank">LinkedIn</a></p>
+            </div>
+        </div>
+
+        </div>
+
 
       <!-- Footer -->
+      <div class="container" id="footer">
+        <div class="row ">
+            <div class="col-12 col-md-6">
+                <nav class="nav">
+                    <a class="nav-link" href="#work">Work</a>
+                    <a class="nav-link" href="#skills">Skills</a>
+                    <a class="nav-link" href="#about-me">About me</a>
+                    <a class="nav-link" href="https://github.com/AstaRem/resume/blob/main/Asta%20Remeikiene%20WB%2002%202023.pdf" target="_blank">Resume</a>
+                  </nav>
+           </div>
+
+           <div class="col-12 col-md-6">
+               <a class="btn btn-primary" href="https://github.com/AstaRem" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+               <a class="btn btn-primary" href="https://www.linkedin.com/in/asta-remeikiene-90192b9/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+                </a>
+           </div>
+        </div>
+      </div>
+
+    
 
 
 
